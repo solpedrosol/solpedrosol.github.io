@@ -1,0 +1,30 @@
+/* paleta: bg F7FFF7, text 2E6171, 0C120C */
+body {
+    background-color: #FFF5EB;
+    line-height: 20px;
+    color: #2E6171 ;
+}
+h1 {
+    font-family:Verdana;
+}
+a {
+    color: #2E6171;
+}
+a:hover {
+    color: #9C95DC;
+    font-size: larger;
+}
+.linkscss {
+    color: #EB9486;
+    text-decoration: none;
+}
+.cidadestado {
+    font-style: italic;
+}
+.atitude {
+    font-size: larger;
+}
+em {
+    font-style: normal;
+    font-weight: bold;
+}
