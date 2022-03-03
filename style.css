@@ -3,9 +3,7 @@ body {
     background-color: #FFF5EB;
     line-height: 20px;
     color: #2E6171 ;
-}
-h1 {
-    font-family:Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
     color: #2F242C;
@@ -14,28 +12,11 @@ a {
 .summary {
     text-align: center;
     list-style: none;
+
 }
 .summary:hover {
     color: #9C95DC;
     font-size: larger;
-}
-#github {
-    width: 70px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #70B77E;
-    padding: 10px 10px;
-    margin: 10px 10px;
-    border: 5px solid #3E7A4A;
-}
-#linkedin {
-    width: 70px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #70B77E;
-    padding: 10px 10px;
-    margin: 10px 10px;
-    border: 5px solid #3E7A4A;  
 }
 .cidadestado {
     font-style: italic;
@@ -45,8 +26,19 @@ em {
     font-weight: bold;
 }
 img {
+    margin-top: 10px;
     border-radius: 100%;
 }
 .fototexto {
+    text-align: center;
+}
+button {
+    display: inline;
+    width: 100px;
+    height: 40px;
+    margin: 7px 7px;
+    cursor: pointer;
+}
+#botoes {
     text-align: center;
 }
