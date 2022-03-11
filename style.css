@@ -1,63 +1,110 @@
 /* paleta: bg FFF5EB, text 2E6171, link 2F242C, link hover 9C95DC */
 body {
-    top
     background-color: #FFF5EB;
     line-height: 20px;
     color: #2E6171 ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-a {
-    color: #94849B;
-    text-decoration: none;
-}
-.summary {
-    list-style: none;
-}
-.summary:hover {
-    color: #BE97C6;
-    font-size: larger;
-}
-.cidadestado {
-    font-style: italic;
+    margin: 0 0 50px 0;
+    font-size: 16px;
 }
 em {
     font-style: normal;
     font-weight: bold;
 }
-img {
-    margin-top: 10px;
-    border-radius: 100%;
-}
 .fototexto {
     text-align: center;
 }
-button {
-    display: inline;
-    width: 100px;
-    height: 40px;
-    margin: 7px 7px;
-    cursor: pointer;
+
+a {
+    color: #2E6171;
+    text-decoration: none;
 }
-#botoes {
-    text-align: center;
+
+.summary {
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+    line-height: 40px;
+    background-color: #64B6AC;
+    box-shadow: 3px 3px #3B7D75;
+    border-radius: 10%;
+    font-weight: bold;
 }
+
+.summary:hover {
+    color: white;
+    font-size: large;
+}
+
 header {
     display:block;
-    text-align: center;
-    background-color: #64B6AC;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
-    height: 100px;
-    margin-bottom: 20px;
-    align-content: center;
+    background-color: #64B6AC;
     box-shadow: 0 5px #3B7D75;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
-aside {
-    display: block;
-    height: 100%;
-    width: 20%;
-}
+
 nav {
     display: block;
-    line-height: 50px;
-    text-align: left;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+#minhafoto {
+    display:inline-block;
+    margin-top: 50px;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-bottom: 50px;
+    border: 5px solid #3B7D75;
+}
+
+#resumo {
+    margin-top: 50px;
+    display:inline-block;
+    width: 400px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+#ability {
+    display: inline-block;
+    width: 40%;
+    margin-left: 200px;
+}
+
+#botoes {
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    width: 150px;
+    height: 100px;
+}
+
+#listahabs {
+    margin-left: 160px;
+    width: 250px;
+}
+
+button {
+    display: inline;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin: 7px 7px;
+    background-color: #64B6AC;
+    box-shadow: 3px 3px #3B7D75;
+    border: 0px;
+    color: #2E6171;
+    border-radius: 10%;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover {
+    color: white;
+    font-size: large;
 }

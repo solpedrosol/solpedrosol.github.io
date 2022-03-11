@@ -9,33 +9,38 @@
 </head>
 <body>
     <!-- Nome e foto -->
-    <header><h1><br>João Pedro Marques de Alcântara</h1></header>
-    <aside>
-        <nav class="fototexto">
-            <a class="summary" href="#resumo">Resumo</a>
-            <a class="summary" href="#habilidades">Habilidades</a>
-            <a class="summary" href="#links">Links</a>
-        </nav>
-    </aside>
+    <header>João Pedro Marques de Alcântara</header>
+    <nav class="fototexto">
+        <a class="summary" href="#resumo">Resumo</a><br>
+        <a class="summary" href="#habilidades">Habilidades</a><br>
+        <a class="summary" href="#links">Links</a>
+    </nav>
+
     <main class="fototexto">
-        <img src="./foto.jpg" width="300px" alt="Foto de João Pedro Marques de Alcântara">
+        <img id="minhafoto" src="./foto.jpg" width="250px" alt="Foto de João Pedro Marques de Alcântara">
         <!-- Breve descrição -->
-        <p id="#resumo"><i>Hi there!</i> Meu nome é <em>Pedro</em>, sou natural de <span class="cidadestado">Natal do Rio Grande do Norte</span>.<br>Sou um jovem aspirante a programador que adora aprender sobre tudo a sua volta. <br>Eu adoro e tenho ler livros como meu maior hobby. Sou fluente em <em><strong>inglês</strong></em>.<br>Cursei fundamentos do marketing digital e tenho técnico em controle ambiental. </p>
+        <p id="resumo"><i>Hi there!</i> Meu nome é <em>Pedro</em>, sou natural de Natal do Rio Grande do Norte. Sou um jovem aspirante a programador que adora aprender sobre tudo a sua volta. Eu adoro e tenho ler livros como meu maior hobby. Sou fluente em <em><strong>inglês</strong></em>.Cursei fundamentos do marketing digital e tenho técnico em controle ambiental.</p>
     </main>
+
     <!-- Habilidades -->
-    <h3 class="fototexto" id="#habilidades">Habilidades</h3>
-    <ul>
-        <li>Sou resiliente;</li>
-        <li>Criativo;</li>
-        <li>Transparente;</li>
-        <li>Trabalho bem em equipe;</li>
-        <li>E <em>sempre</em> mantenho uma atitude positiva;</li>
-    </ul>
+    <div id="ability">
+        <h3 class="fototexto" id="habilidades">Habilidades</h3>
+        <ul id="listahabs">
+            <li>Sou resiliente;</li>
+            <li>Criativo;</li>
+            <li>Transparente;</li>
+            <li>Trabalho bem em equipe;</li>
+            <li>E <em>sempre</em> mantenho uma atitude positiva.</li>
+        </ul>
+    </div>
+
     <!-- Links -->
-    <h3 class="fototexto" id="#links">Links</h3>
     <div id="botoes">
-        <a href="https://github.com/solpedrosol" target="_blank"></a><button type="button">Github</button></a><br>
-        <a href="https://www.linkedin.com/in/p3dro-marques/" target="_blank"><button type="button">Linkedin</button></a>
+        <h3 class="fototexto" id="links">Links</h3>
+        <div class="fototexto">
+            <a href="https://github.com/solpedrosol" target="_blank"><button type="button">Github</button></a><br>
+            <a href="https://www.linkedin.com/in/p3dro-marques/" target="_blank"><button type="button">Linkedin</button></a>
+        </div>
     </div>
 </body>
 </html>
